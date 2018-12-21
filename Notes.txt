@@ -1,0 +1,4 @@
+所有要提交的命令先要add，然后commit,再是pull，最后是push。
+
+git add 文件名
+
