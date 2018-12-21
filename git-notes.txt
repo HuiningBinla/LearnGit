@@ -1,0 +1,1 @@
+git clone     把远程仓库clone到本地
