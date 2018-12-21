@@ -3,3 +3,5 @@ git clone     把远程仓库clone到本地
 git add   [文件名]    添加文件到缓存
 
 git status  .  查看修改
+
+git  diff [文件名]  查看文件修改内容
