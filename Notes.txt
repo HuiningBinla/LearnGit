@@ -1,4 +1,104 @@
 所有要提交的命令先要add，然后commit,再是pull，最后是push。
 
-git add 文件名
 
+1、新File提交步骤：
+	
+	git add 文件名
+	添加文件到缓存
+
+	git commit -m "再熟悉一遍"
+	# 将缓存的File添加到本地仓库
+
+	git log
+	# 查看提交的日志
+
+	git push origin master  # master是仓库的branch
+	# 将本地内容推送到remote（远程）
+
+	# 查看提交的日志时，进入远程服务器中仓库LearnGit中查看最新的更新状态。
+
+2、继续学习：
+	
+	git clone
+	把远程仓库clone到本地,
+	
+	git pull origin master
+	同步信息
+	
+	然后就可以继续编写代码
+	
+	之后保存
+	
+	git add 文件名
+	将编写的代码重新添加到缓存
+	
+	git commit -m "编写的目的"
+	将重新缓存的 File 添加到本地
+	
+	git push origin master
+	将添加到本地的 File send 到远程仓库
+
+	
+以后操作就：
+
+	从远程 clone 到本地 ==> 本地同步信息 ==> 编辑 ==> add ==> commit -m "" ==> push 
+	
+	
+	
+
+	
+脚下留心：
+	因为github在过外服务器，所以访问较慢或者无法访问，故需要翻墙（shadowsocks）
+	
+	
+创建仓库/创建项目
+
+	说明
+	
+		一个git库（仓库）对应一个开源项目
+		通过git管理git库
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

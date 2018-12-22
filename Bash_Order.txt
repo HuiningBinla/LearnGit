@@ -1,0 +1,21 @@
+命令 [-options] [参数]，这是命令的基本形式
+
+pwd (Print working Directory) 查看当前目录
+
+cd (Change Directory ) 切换目录，$ cd e:
+	1.$ cd e:代表切换到e盘符下
+	2.$ cd works 代表切换到e盘符下的 works 文件夹
+	3.$ c:/user 代表切换到c盘符下的user文件夹
+	4.$ cd .. 代表切换到上一级目录，一个点代表当前目录，两个点代表上一级目录
+	
+ls(list)查看当前目录内容，如 $ ls -a
+	1.$ ls images,这个表示查看当前工作目录下的images文件夹下的内容，
+		需要注意这并没有切换目录
+	2.
+
+
+	
+	
+	
+	
+	
