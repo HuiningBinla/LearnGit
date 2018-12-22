@@ -1,2 +1,3 @@
 # LearnGit
-学习Git
+了解Git
+
