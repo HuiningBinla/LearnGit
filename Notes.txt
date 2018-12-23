@@ -30,7 +30,7 @@
 	之后保存
 	
 	git add 文件名
-	将编写的代码重新添加到缓存
+	将编写的代码重新添加到缓存，回车之后跳到下一行，继续下一个命令
 	
 	git commit -m "编写的目的"
 	将重新缓存的 File 添加到本地
@@ -59,14 +59,31 @@
 		通过git管理git库
 		
 
+
+在GitHub中搜索文件快捷键：t（不分大小写）
 	
 	
 	
+下载框架
+
+	
+GitHub issues
+作用：发现代码BUG，但目前没有成型代码，需要讨论时用；
+	或者使用开源项目出现问题时使用。
+	
+	情景：张三发现李四开源git库，则提交一个issue；
+	李四隔天登录GitHub主页看到通并和张三交流，最后关闭issue
 	
 	
+git 基础设置
+	设置用户名
+	git config-global.user.name 'git yonghuming'
+	设置用户名邮箱
+	git config-global user.email'邮箱号'
+	查看设置
+	git config-global list
 	
-	
-	
+初始化git
 	
 	
 	
