@@ -11,11 +11,12 @@ cd (Change Directory ) 切换目录，$ cd e:
 ls(list)查看当前目录内容，如 $ ls -a
 	1.$ ls images,这个表示查看当前工作目录下的images文件夹下的内容，
 		需要注意这并没有切换目录
-	2.
+	2.查看目录内容有时候会多出两个隐藏的文件夹 $RECYCLE.BIN/
+	和System VOlume Information/这个我们不需要去管它
 
 
 	
 	
 	
 	
-	
+touch 文件名 表示创建文件夹或者创建文件
