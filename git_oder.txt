@@ -1,0 +1,69 @@
+
+# 本地和远程建立联系：
+git config --global user.name "Github上注册的用户名"    # 配置用户名
+git config --global user.email "Github上注册时的邮箱"   # 配置用户邮箱
+ssh-keygen -t rsa -C "Github上注册时的邮箱"
+
+# 常用命令：
+cd d/Github    # 进入D盘下的Github的文件夹
+cd ..          # 推出当前文件夹
+mkdir text     # 创建新的文件夹
+mv text        # 移除text文件夹,查资料！！！
+vi text,txt    # 创建名为text的txt文件
+touch text.txt # 新建text文件
+rm text,txt    # 移除text文件
+pwd            # 显示当前目录的路径
+ls(ll)         # 都是列出当前目录下所有文件，不过ll列出的内容更详细
+reset          # 清空git bash命令窗口的所有内容
+
+# 创建版本库
+git clone <url>        # fork远程版本库
+git init               # 初始化本地版本库
+
+# 修改和提交
+git status             # 查看状态
+git diff               # 查看所有变更内容
+git add                # 跟踪所有改动过的文件
+git add <file>         # 跟踪指定的文件
+git mv <old> <new>     # 文件更名
+git rm <file>          # 删除文件
+git rm --cached <file> # 停止跟踪文件但不删除
+git commit -m "commit message"
+                       # 提交所有更新过的文件
+git commit --amend     # 修改最后一次提交
+
+# 查看提交历史
+git log                # 查看提交历史
+git log -p <file>      # 查看指定文件的提交历史
+git blame <file>       # 以列表方式查看指定文件的提交历史
+
+# 撤销
+git reset --hard HEAD     # 撤销工作目录中所有未提交
+git checkout HEAD <file>  # 撤销指定的未提交文件的修改内容
+git revert <commit>       # 撤销指定的提交
+
+# 分支与标签
+git branch                # 显示所有本地分支
+git checkout <branch/tag> # 切换到指定分支或内容
+git branch <new-branch>   # 创建新分支
+git branch -d <-branch>   # 删除本地分支
+git tag                   # 列出所有本地标签
+git tag <tagname>         # 基于最新提交创建标签
+git tag -d <tagname>      # 删除标签
+
+# 合并与衔合
+git merge <branch>        # 合并指定分支到当前分支
+git rebase <branch>       # 衔合指定分支到当前分支
+
+# 远程操作
+git remote -v               # 查看远程版本库信息
+git remote show <remote>    # 查看远程指定版本库信息
+git remote add <remote> <url>
+                            # 添加远程版本库
+git fetch <remote>          # 从远程库获取代码
+git pull <remote> <branch>  # 下载代码及快速合并
+git push <remote> <branch>  # 上传代码及快速合并
+git push <remote> :<branch/tag-name>
+                            # 删除远程分支或标签
+git push --tags             # 上传所有标签
+
